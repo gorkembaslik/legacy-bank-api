@@ -1,0 +1,6 @@
+account_id,customer_name,branch_code,account_type,balance,currency,status
+IT-1001,Giulia Rossi,MIL01,CHECKING,5240.50,EUR,ACTIVE
+IT-1002,Luca Bianchi,ROM02,SAVINGS,15000.00,EUR,ACTIVE
+IT-1003,Sofia Conti,TOR03,CHECKING,980.00,EUR,DORMANT
+IT-1004,Marco Greco,NAP04,LOAN,-32000.00,EUR,ACTIVE
+IT-1005,Elisa Romano,BOL05,SAVINGS,2500.00,EUR,BLOCKED

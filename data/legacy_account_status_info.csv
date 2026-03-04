@@ -1,0 +1,6 @@
+account_id,status,status_reason,regulatory_note,inactivity_threshold_years,last_customer_activity_at,review_due_at
+IT-1001,ACTIVE,Conto operativo con movimenti recenti,Nessuna limitazione attiva,10,2026-02-24T14:45:00+01:00
+IT-1002,ACTIVE,Conto risparmio regolare,Nessuna limitazione attiva,10,2026-02-25T16:00:00+01:00
+IT-1003,DORMANT,Conto senza operazioni da oltre 10 anni,In Italia un conto può essere considerato dormiente dopo 10 anni di inattività,10,2014-02-07T08:20:00+01:00,2024-01-07T00:00:00+02:00
+IT-1004,ACTIVE,Prestito in ammortamento regolare,Nessuna limitazione attiva,10,2026-03-01T09:01:00+01:00
+IT-1005,BLOCKED,Conto bloccato per verifica KYC non completata,Operatività sospesa fino alla verifica documentale,10,2025-01-10T12:00:00+01:00,2027-04-15T00:00:00+02:00

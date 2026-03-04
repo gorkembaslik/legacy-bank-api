@@ -1,0 +1,14 @@
+[
+	{
+		"username": "ops",
+		"password": "ops-demo-2026",
+		"role": "admin",
+		"active": true
+	},
+	{
+		"username": "analyst",
+		"password": "analyst-demo-2026",
+		"role": "viewer",
+		"active": true
+	}
+]
