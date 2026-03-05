@@ -1,0 +1,11 @@
+services:
+  legacy-bank-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: legacy-bank-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

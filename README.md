@@ -33,6 +33,30 @@ uvicorn app.main:app --reload
 - Swagger: `http://127.0.0.1:8000/docs`
 - UI: `http://127.0.0.1:8000/`
 
+## Run with Docker
+
+From project root:
+
+```powershell
+docker compose up --build
+```
+
+- Swagger: `http://127.0.0.1:8000/docs`
+- UI: `http://127.0.0.1:8000/`
+
+Stop the demo:
+
+```powershell
+docker compose down
+```
+
+Rebuild cleanly when needed:
+
+```powershell
+docker compose down --rmi local
+docker compose up --build
+```
+
 ## Authentication
 
 - Login: `POST /auth/token` with JSON body:
